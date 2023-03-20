@@ -1,0 +1,25 @@
+.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    height: 40px;
+    width: 200px;
+}
+
+.inactive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    height: 40px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+/* #contactPageContainer {
+    height: 70vh;
+} */

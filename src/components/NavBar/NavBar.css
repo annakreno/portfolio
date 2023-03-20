@@ -1,0 +1,41 @@
+.navContainer {
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: black;
+}
+
+.navLinks {
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navLinks:hover {
+    font-size: large;
+    text-decoration: none;
+}
+
+
+
+.logo {
+    height: 100%;
+    font-size: 50px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}

@@ -1,25 +1,34 @@
+import "./Contact.css"
+import { useState } from "react";
+
 export default function Contact() {
+    const [activeClass, setActiveClass] = useState("inactive")
+
+    function handleClick() {
+        activeClass === "active" ? setActiveClass("inactive") : setActiveClass("active")
+    }
+
     return (
-        <div className="pageContainer">
+        <div className="pageContainer" id="contactPageContainer">
             <div className="pageTitle">Contact</div>
-            <div className="pageSubTitle">feel free to say hello and get in touch</div>
-            <div className="pageSubTitle">annakreno@gmail.com</div>
-            <form>
-                <label>Name</label>
-                <input></input>
-                <label>Email</label>
-                <input></input>
-                <label>Phone</label>
-                <input></input>
-                <label>Message</label>
-                <textarea></textarea>
-            </form>
-            <div>
-                <img/>linkedin |
-                <img/>| github |
-                <img/>| email
-                
+            <div className="pageComponent">
+                Interested in working with me? I am available for freelance work or full-time hire. I would love to hear more about your companies or current projects you are working on. Please feel free to contact me.
             </div>
+            
+            <div className={activeClass} onClick={handleClick} >
+                
+                { activeClass === "active" ?
+                    <>
+                        <div className="contactInfo">E: annakreno@gmail.com</div>
+                        <div className="contactInfo">P: (765) 631-1777</div>
+                    </>
+                    : "Show Contact Info"
+                }
+            </div>
+
+            <div className="linkContainer"><a href="https://www.linkedin.com/in/annareno/">LinkedIn</a></div>
+            <div className="linkContainer"><a href="https://github.com/annakreno">GitHub</a></div>
+            
         </div>
     )
 

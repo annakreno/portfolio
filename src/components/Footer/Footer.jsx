@@ -1,8 +1,15 @@
+import "./Footer.css"
+import { Link } from 'react-scroll';
+<div className="navLinks">
+    
+</div>
+
 export default function Footer() {
     return (
         <div className="footerContainer">
-            <div>back to top</div>
-            <div>designed & built by Anna Reno</div>
+            <Link to="home" smooth={true}>back to top</Link>
+            <div className="linkContainer">designed & built by Anna Reno</div>
         </div>
     )
 }
+

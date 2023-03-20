@@ -1,0 +1,42 @@
+#workPageContainer {
+    height: 100%;
+}
+
+.pageComponent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#workPageContainer > div:nth-child(even) > div:first-child > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.componentText {
+    height: 100%;
+    width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.componentText > * {
+    padding-top: 15px;
+}
+
+img {
+    height: 400px;
+}
+
+.projectName {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.componentSources {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
