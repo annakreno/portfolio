@@ -3,7 +3,7 @@ import "./About.css"
 
 export default function About() {
     return (
-        <div className="pageContainer">
+        <div className="pageContainer" id="aboutPageContainer">
             <div className="pageTitle">
                 About Me
             </div>

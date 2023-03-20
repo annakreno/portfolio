@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="pageContainer" id="contactPageContainer">
             <div className="pageTitle">Contact</div>
             
-            <div className="pageComponent">
+            <div className="pageComponent" id="contactPageText">
                 Interested in working with me? I am available for freelance work or full-time hire. I would love to hear more about your companies or current projects you are working on. Please feel free to contact me.
             </div>
             
@@ -24,7 +24,7 @@ export default function Contact() {
                         <br/>
                         <div className="contactInfo">P: (765) 631-1777</div>
                         <br/>
-                        <div><a href="https://www.linkedin.com/in/annareno/">LinkedIn</a></div>
+                        <div className="linkContainer"><a href="https://www.linkedin.com/in/annareno/">LinkedIn</a></div>
                     </>
                     : "Show Contact Info"
                 }

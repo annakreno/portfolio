@@ -48,7 +48,7 @@ export default function Work() {
                 <div className="componentText">
                     <div className="projectName">Cosmic Companion </div>
                     <div className="technologiesUsed">Python3, Django, PostgreSQL, AWS, NASA's Astronomy Picture of the Day API</div>
-                    <div className="projectDescription">A full stack web application for tracking celestial events. Users can view upcoming celestial events and filtered by date range or log in to create, edit, and delete events or upload images.</div>
+                    <div className="projectDescription">A full stack web application for tracking celestial events. Users can view upcoming events filtered by date range or log in to create, edit, and delete events or upload images.</div>
                     <div className="componentSources">
                         <div className="linkContainer"><a href="https://github.com/annakreno/cosmiccompanion">Github Repo</a></div>
                         &nbsp; | &nbsp;

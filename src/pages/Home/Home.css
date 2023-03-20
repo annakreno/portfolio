@@ -1,8 +1,11 @@
 #homePageContainer {
-    /* border: 1px solid blue; */
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url("../../images/evie-s-h_Aike2KQOw-unsplash.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
 #name {
@@ -18,4 +21,5 @@
     /* border: 3px solid orangered; */
     display: flex;
     flex-direction: row-reverse;
+    color: gray;
 }

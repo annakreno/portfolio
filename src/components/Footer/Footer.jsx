@@ -7,8 +7,9 @@ import { Link } from 'react-scroll';
 export default function Footer() {
     return (
         <div className="footerContainer">
-            <Link to="home" smooth={true}>Back to Top</Link>
-            <div className="linkContainer">Designed & Built by Anna Reno</div>
+            <div className="linkContainer"><Link to="home" smooth={true}>Back to Top</Link></div>
+            <div>Designed & Built by Anna Reno</div>
+            <div className="linkContainer">Photo by <a href="https://unsplash.com/@evieshaffer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Evie S.</a> on <a href="https://unsplash.com/photos/h_Aike2KQOw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
         </div>
     )
 }

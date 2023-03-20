@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     color: black;
+    position: fixed;
+    
 }
 
 .navLinks {
@@ -13,6 +15,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    color: rgba(56, 128, 235, 1);
 }
 
 a {
@@ -22,7 +25,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: rgba(238, 139, 85, 1);
+  
 }
 
 .navLinks:hover {

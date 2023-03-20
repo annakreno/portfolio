@@ -8,6 +8,13 @@
     align-items: center;
 }
 
+div.linkContainer > a {
+    color: rgba(56, 128, 235, 1);
+}
+
+div.linkContainer > a:hover {
+    color: rgba(238, 139, 85, 1);
+}
 
 .componentText {
     height: 100%;
@@ -18,9 +25,7 @@
 
 .componentText > div {
     padding-top: 15px;
-    
 }
-
 
 img {
     height: 400px;
@@ -35,5 +40,9 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.technologiesUsed {
+    font-style: italic;
 }
 
