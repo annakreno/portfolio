@@ -1,25 +1,33 @@
-.active {
+#contactPageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 10%;
+}
+
+#contactPageContainer > div {
+    width: 75%;
+    margin: 2% 0 2% 12.5%;
+}
+
+#contactPageContainer > div.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 2%;
+    align-items: flex-start;
     height: 40px;
     width: 200px;
 }
 
-.inactive {
+#contactPageContainer > div.inactive {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2%;
     height: 40px;
     width: 200px;
-    background-color: aquamarine;
     border-radius: 25px;
+    background-color: lightgray;
 }
 
-/* #contactPageContainer {
-    height: 70vh;
-} */

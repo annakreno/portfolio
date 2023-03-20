@@ -8,11 +8,6 @@
     align-items: center;
 }
 
-#workPageContainer > div:nth-child(even) > div:first-child > * {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
 
 .componentText {
     height: 100%;
@@ -21,9 +16,11 @@
     padding-right: 25px;
 }
 
-.componentText > * {
+.componentText > div {
     padding-top: 15px;
+    
 }
+
 
 img {
     height: 400px;

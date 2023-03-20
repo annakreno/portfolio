@@ -1,3 +1,28 @@
+
+
+#aboutPageComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#aboutPageComponent > div.componentText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 0;
+}
+
+#aboutMeLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5%;
+}
+
 #headshot {
     border-radius: 50%;
+    height: 300px;
 }

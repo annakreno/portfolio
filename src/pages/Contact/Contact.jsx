@@ -11,6 +11,7 @@ export default function Contact() {
     return (
         <div className="pageContainer" id="contactPageContainer">
             <div className="pageTitle">Contact</div>
+            
             <div className="pageComponent">
                 Interested in working with me? I am available for freelance work or full-time hire. I would love to hear more about your companies or current projects you are working on. Please feel free to contact me.
             </div>
@@ -20,15 +21,17 @@ export default function Contact() {
                 { activeClass === "active" ?
                     <>
                         <div className="contactInfo">E: annakreno@gmail.com</div>
+                        <br/>
                         <div className="contactInfo">P: (765) 631-1777</div>
+                        <br/>
+                        <div><a href="https://www.linkedin.com/in/annareno/">LinkedIn</a></div>
                     </>
                     : "Show Contact Info"
                 }
             </div>
 
-            <div className="linkContainer"><a href="https://www.linkedin.com/in/annareno/">LinkedIn</a></div>
-            <div className="linkContainer"><a href="https://github.com/annakreno">GitHub</a></div>
             
+
         </div>
     )
 
