@@ -1,12 +1,11 @@
 import './App.css';
-import { useState } from 'react';
-import { Link, Element } from 'react-scroll';
+import {Element } from 'react-scroll';
 import NavBar from '../../components/NavBar/NavBar'
 import Home from '../Home/Home';
 import Work from '../Work/Work';
 import About from '../About/About';   
 import Contact from '../Contact/Contact';
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer/Footer';
 
 export default function App() {
   return (

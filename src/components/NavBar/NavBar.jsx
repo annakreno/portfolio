@@ -18,7 +18,7 @@ export default function NavBar() {
                     <Link to="contact" smooth={true}>Contact</Link>
                 </div>
                 <div className="navLinks">
-                    <a href="">Resume</a>
+                    <a href="https://drive.google.com/file/d/1HmHzJIQqfCU9wikXyAs0GYO5ueawtJ5Z/view?usp=sharing" target="_blank">Resume</a>
                 </div>
         </div>
     )
