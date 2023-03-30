@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c9614adc.css",
-    "main.js": "/portfolio/static/js/main.ee690e47.js",
+    "main.css": "/portfolio/static/css/main.401d43e2.css",
+    "main.js": "/portfolio/static/js/main.c2649b3a.js",
     "static/js/787.73049b23.chunk.js": "/portfolio/static/js/787.73049b23.chunk.js",
     "static/media/cosmic_companion.png": "/portfolio/static/media/cosmic_companion.17522bcc64eb74955d4e.png",
     "static/media/evie-s-h_Aike2KQOw-unsplash.jpg": "/portfolio/static/media/evie-s-h_Aike2KQOw-unsplash.576ea6e4f52828d25cdd.jpg",
@@ -10,12 +10,12 @@
     "static/media/slot_machine.png": "/portfolio/static/media/slot_machine.6d15eff4214d8ab065fe.png",
     "static/media/together_now.png": "/portfolio/static/media/together_now.fa8380a5c6c010c1bf38.png",
     "index.html": "/portfolio/index.html",
-    "main.c9614adc.css.map": "/portfolio/static/css/main.c9614adc.css.map",
-    "main.ee690e47.js.map": "/portfolio/static/js/main.ee690e47.js.map",
+    "main.401d43e2.css.map": "/portfolio/static/css/main.401d43e2.css.map",
+    "main.c2649b3a.js.map": "/portfolio/static/js/main.c2649b3a.js.map",
     "787.73049b23.chunk.js.map": "/portfolio/static/js/787.73049b23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9614adc.css",
-    "static/js/main.ee690e47.js"
+    "static/css/main.401d43e2.css",
+    "static/js/main.c2649b3a.js"
   ]
 }
