@@ -23,3 +23,19 @@
     flex-direction: row-reverse;
     color: gray;
 }
+
+@media only screen and (max-width: 600px) {
+    #homePageContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #homePageContainer > div.pageSubTitle, #name {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+  }

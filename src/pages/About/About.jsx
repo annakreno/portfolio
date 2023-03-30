@@ -13,7 +13,7 @@ export default function About() {
                     I am a full stack software engineer with an eye for detail and passion for creative problem solving. My background in account management and hospitality developed my skills as an excellent communicator, project manager, and practiced team player. As a result, I excel at project-based work where quiet, thoughtful deliberation is followed by collaboration.
                     </div>
                     <div id="aboutMeLinks">
-                        <div className="linkContainer"><a href="https://drive.google.com/file/d/1HmHzJIQqfCU9wikXyAs0GYO5ueawtJ5Z/view?usp=sharing">Resume</a></div>
+                        <div className="linkContainer"><a href="https://drive.google.com/file/d/1Gnsz3Z9lqAtgjmhS0CHpjlJ8LBPF0C9D/view?usp=sharing">Resume</a></div>
                         &nbsp; | &nbsp;
                         <div className="linkContainer"><a href="https://www.linkedin.com/in/annareno/">LinkedIn</a></div>
                         &nbsp; | &nbsp;

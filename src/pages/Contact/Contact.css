@@ -44,3 +44,21 @@
     color: white;
 }
 
+@media only screen and (max-width: 600px) {
+
+    #contactPageContainer > div {
+        width: 75%;
+    }
+    
+    
+    #contactPageContainer > div.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 40px;
+        width: 200px;
+        padding: 25px;
+    }
+    
+}

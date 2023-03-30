@@ -13,6 +13,9 @@ export default function Work() {
             </div>
 
             <div className="pageComponent" id="pageComponent1">
+                <div className="componentImage">
+                    <img src={slotMachine} alt="Slot Machine Game Mockup"></img>
+                </div>
                 <div className="componentText">
                     <div className="projectName">Slot Machine</div>
                     <div className="technologiesUsed">JavaScript, HTML, CSS</div>
@@ -22,9 +25,6 @@ export default function Work() {
                         &nbsp; | &nbsp;
                         <div className="linkContainer"><a href="https://annakreno.github.io/slotmachinegame/">Game</a></div>
                     </div>
-                </div>
-                <div className="componentImage">
-                    <img src={slotMachine} alt="Slot Machine Game Mockup"></img>
                 </div>
             </div>
 
@@ -45,6 +45,9 @@ export default function Work() {
             </div>
 
             <div className="pageComponent">
+                <div className="componentImage">
+                    <img src={cosmicCompanion} alt="Cosmic Companion App Mockup"></img>
+                </div>
                 <div className="componentText">
                     <div className="projectName">Cosmic Companion </div>
                     <div className="technologiesUsed">Python3, Django, PostgreSQL, AWS, NASA's Astronomy Picture of the Day API</div>
@@ -54,9 +57,6 @@ export default function Work() {
                         &nbsp; | &nbsp;
                         <div className="linkContainer"><a href="https://cosmiccompanion.herokuapp.com/">App</a></div>
                     </div>
-                </div>
-                <div className="componentImage">
-                    <img src={cosmicCompanion} alt="Cosmic Companion App Mockup"></img>
                 </div>
             </div>
 
